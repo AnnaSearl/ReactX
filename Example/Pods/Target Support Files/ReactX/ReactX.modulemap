@@ -1,0 +1,6 @@
+framework module ReactX {
+  umbrella header "ReactX-umbrella.h"
+
+  export *
+  module * { export * }
+}

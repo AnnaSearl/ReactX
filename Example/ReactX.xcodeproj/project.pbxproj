@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		74C934EF9F0C590C20ADF776 /* Pods_ReactX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CAA3DC9C83E537D766A5DD /* Pods_ReactX_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A835F1852988F3A1003BC495 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A835F1842988F3A1003BC495 /* RNViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +39,11 @@
 
 /* Begin PBXFileReference section */
 		0C6508C3D092B3F986154C3D /* Pods_ReactX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DE97A5A3DF8126C0DE52B23 /* ReactX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReactX.podspec; path = ../ReactX.podspec; sourceTree = "<group>"; };
+		0DE97A5A3DF8126C0DE52B23 /* ReactX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReactX.podspec; path = ../ReactX.podspec; sourceTree = "<group>"; };
 		26BB610DCAB847BCA1B73D02 /* Pods-ReactX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactX_Example.debug.xcconfig"; path = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4D71967D7800100DD6A1231E /* Pods-ReactX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactX_Example.release.xcconfig"; path = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example.release.xcconfig"; sourceTree = "<group>"; };
 		54CAA3DC9C83E537D766A5DD /* Pods_ReactX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2B4E33E20145F00E47D0F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B2B4E33E20145F00E47D0F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ReactX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +65,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A835F1832988F3A1003BC495 /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		A835F1842988F3A1003BC495 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		AA264C8A8876C406EAB3ACC2 /* Pods-ReactX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactX_Tests.release.xcconfig"; path = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8A0625CE0F56C407524C302 /* Pods-ReactX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactX_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4FF81C66E2D73F7B912B77B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4FF81C66E2D73F7B912B77B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A835F1832988F3A1003BC495 /* RNViewController.h */,
+				A835F1842988F3A1003BC495 /* RNViewController.m */,
 			);
 			name = "Example for ReactX";
 			path = ReactX;
@@ -193,7 +198,6 @@
 				C8A0625CE0F56C407524C302 /* Pods-ReactX_Tests.debug.xcconfig */,
 				AA264C8A8876C406EAB3ACC2 /* Pods-ReactX_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Arwen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X43K8SNAPQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A835F1852988F3A1003BC495 /* RNViewController.m in Sources */,
 				6003F59E195388D20070C39A /* REACTXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* REACTXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -494,6 +503,7 @@
 			baseConfigurationReference = 26BB610DCAB847BCA1B73D02 /* Pods-ReactX_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X43K8SNAPQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactX/ReactX-Prefix.pch";
 				INFOPLIST_FILE = "ReactX/ReactX-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = 4D71967D7800100DD6A1231E /* Pods-ReactX_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X43K8SNAPQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactX/ReactX-Prefix.pch";
 				INFOPLIST_FILE = "ReactX/ReactX-Info.plist";

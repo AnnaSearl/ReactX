@@ -1,14 +1,7 @@
-#
-# Be sure to run `pod lib lint ReactX.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'ReactX'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of ReactX.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +14,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Arwen/ReactX'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/AnnaSearl/ReactX'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Arwen' => 'chenjiawen@ksztone.com' }
-  s.source           = { :git => 'https://github.com/Arwen/ReactX.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'AnnaSearl' => '1029846268@qq.com' }
+  s.source           = { :git => 'https://github.com/AnnaSearl/ReactX.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.platforms        = { :ios => "11.0" }
 
-  s.source_files = 'ReactX/Classes/**/*'
+  s.source_files = 'ReactX/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ReactX' => ['ReactX/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

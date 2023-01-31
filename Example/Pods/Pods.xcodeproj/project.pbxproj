@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E90A6B8818B93D2F530E38A6C4D10ED /* ReactX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B088B741DE6C16AC451E5E16D53A8875 /* ReactX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131C6EB67A377C0689D60F98A709E7C8 /* Pods-ReactX_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EBDCC3A9CA41EDB8B8F0EC63DB988E /* Pods-ReactX_Example-dummy.m */; };
+		245A6989F1E80083BE24B68F6464DC94 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5B9DC770685094D3A393D0D20EBAB /* ReplaceMe.m */; };
+		3347AA1A137C25B1A5AC36D73D29854D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EC7D8F47788A2D855E86D9768F46898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D46AB16C623741ABFBEDA23DB31A22D /* Pods-ReactX_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2849FA86EF49D7BB1D2F7FB0C5B9CF /* Pods-ReactX_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C044E5EC132126708AEFAFA536832B /* Pods-ReactX_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC3DA80CA2A9A57B98682CD7C58E8B7 /* Pods-ReactX_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB63A83619073B27EFD2657E54FFFDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8DF63FE2A2A3F8D7A57785A5CC7943D0 /* Pods-ReactX_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD01D1D12647E938EB941EAAD23CFABA /* Pods-ReactX_Tests-dummy.m */; };
+		B0051EBB97E37B685824D5C4F43E710C /* ReactX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C3E976CC453E3A39FECD4F63D8AF1 /* ReactX-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2B29FF931162465A21DE35301F1879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53FBF4B0BE8280301D72B3DECB525790;
+			remoteInfo = ReactX;
+		};
+		D745DF1833D0E06745ACF42714D7C475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF756D666E07253FF264ED8D6F9EC59;
+			remoteInfo = "Pods-ReactX_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0252B20623308AE150C4A6DDA9351DEE /* Pods-ReactX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactX_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04A21ECA3055B1D913656E69FCAA6F04 /* Pods-ReactX_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReactX_Example"; path = Pods_ReactX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A702C2698240DE274598398AC61BC2C /* Pods-ReactX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactX_Example.modulemap"; sourceTree = "<group>"; };
+		22C5B9DC770685094D3A393D0D20EBAB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ReactX/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		23EF0DF1C2CF5D162B749865B2D15365 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2C46123588BDF8ED06C9357F7C663BE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		352FC961E921E36BA811839985E12827 /* Pods-ReactX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactX_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38EBDCC3A9CA41EDB8B8F0EC63DB988E /* Pods-ReactX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactX_Example-dummy.m"; sourceTree = "<group>"; };
+		4C58F19CE1D1F0D5A417CDEBC30D5B45 /* ReactX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReactX-Info.plist"; sourceTree = "<group>"; };
+		4D7A1296C553E1FF9BF13639AB4417AE /* Pods-ReactX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactX_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4FFD05BD0B68836B538BEBE6AA6C2BE1 /* Pods-ReactX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		508BB4AAC8A77F17877427CD49E52E5E /* Pods-ReactX_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReactX_Tests"; path = Pods_ReactX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5241973311A6EE47972845ACF9A8BD80 /* Pods-ReactX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		619C0EE09C9AC3DD8DEDEC0A17B6D6C3 /* Pods-ReactX_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactX_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		656DC4D0CA35190F8772FB65282456E4 /* Pods-ReactX_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactX_Tests.modulemap"; sourceTree = "<group>"; };
+		698016BE8A1F6DBAB0381359510DE786 /* Pods-ReactX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactX_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		748C40438739EE560DED2493F5473F09 /* ReactX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ReactX.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7750387A4437CB00B2CE5B72104A833D /* Pods-ReactX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B15D94EDD76DFDFC8658C3307137197 /* ReactX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactX; path = ReactX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABB9A9ABCB414C944873E910069AFD6 /* ReactX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactX-prefix.pch"; sourceTree = "<group>"; };
+		991DA5B8055BBCFF37A384F0F601417C /* ReactX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactX.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC6C71B87B21DE0500282A306F3F44FA /* Pods-ReactX_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactX_Tests-Info.plist"; sourceTree = "<group>"; };
+		ADC3DA80CA2A9A57B98682CD7C58E8B7 /* Pods-ReactX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactX_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE2849FA86EF49D7BB1D2F7FB0C5B9CF /* Pods-ReactX_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactX_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B088B741DE6C16AC451E5E16D53A8875 /* ReactX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactX-umbrella.h"; sourceTree = "<group>"; };
+		B6E76AE285D46C0106AAC4CB3DA35E7D /* ReactX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReactX.modulemap; sourceTree = "<group>"; };
+		D2A1D81669627049C1628572D5DC97D1 /* Pods-ReactX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactX_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E05C3E976CC453E3A39FECD4F63D8AF1 /* ReactX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactX-dummy.m"; sourceTree = "<group>"; };
+		E914EE953A166255C316827C2BCB754D /* Pods-ReactX_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactX_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB0B86A0703384D5C23107F5F6FC632D /* ReactX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactX.debug.xcconfig; sourceTree = "<group>"; };
+		FD01D1D12647E938EB941EAAD23CFABA /* Pods-ReactX_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactX_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230FB40B1C13C1A6BB77BAEE0695BBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3347AA1A137C25B1A5AC36D73D29854D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3FE142BD40FB8BF026D688373F293F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB63A83619073B27EFD2657E54FFFDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E0E17B5A731E3BC1D87379CB630916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC7D8F47788A2D855E86D9768F46898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB192AFF4B8DD097657EE7CF01C4B66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E76AE285D46C0106AAC4CB3DA35E7D /* ReactX.modulemap */,
+				E05C3E976CC453E3A39FECD4F63D8AF1 /* ReactX-dummy.m */,
+				4C58F19CE1D1F0D5A417CDEBC30D5B45 /* ReactX-Info.plist */,
+				8ABB9A9ABCB414C944873E910069AFD6 /* ReactX-prefix.pch */,
+				B088B741DE6C16AC451E5E16D53A8875 /* ReactX-umbrella.h */,
+				FB0B86A0703384D5C23107F5F6FC632D /* ReactX.debug.xcconfig */,
+				991DA5B8055BBCFF37A384F0F601417C /* ReactX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReactX";
+			sourceTree = "<group>";
+		};
+		31987A444D99998CC522E4017FE94C91 /* Pods-ReactX_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				656DC4D0CA35190F8772FB65282456E4 /* Pods-ReactX_Tests.modulemap */,
+				E914EE953A166255C316827C2BCB754D /* Pods-ReactX_Tests-acknowledgements.markdown */,
+				619C0EE09C9AC3DD8DEDEC0A17B6D6C3 /* Pods-ReactX_Tests-acknowledgements.plist */,
+				FD01D1D12647E938EB941EAAD23CFABA /* Pods-ReactX_Tests-dummy.m */,
+				AC6C71B87B21DE0500282A306F3F44FA /* Pods-ReactX_Tests-Info.plist */,
+				AE2849FA86EF49D7BB1D2F7FB0C5B9CF /* Pods-ReactX_Tests-umbrella.h */,
+				7750387A4437CB00B2CE5B72104A833D /* Pods-ReactX_Tests.debug.xcconfig */,
+				352FC961E921E36BA811839985E12827 /* Pods-ReactX_Tests.release.xcconfig */,
+			);
+			name = "Pods-ReactX_Tests";
+			path = "Target Support Files/Pods-ReactX_Tests";
+			sourceTree = "<group>";
+		};
+		4B325F1FF6E4D6E4C1ECB3032B38E588 /* ReactX */ = {
+			isa = PBXGroup;
+			children = (
+				22C5B9DC770685094D3A393D0D20EBAB /* ReplaceMe.m */,
+				82A0C06FBEB260698DF8A9C0B1031E24 /* Pod */,
+				0BB192AFF4B8DD097657EE7CF01C4B66 /* Support Files */,
+			);
+			name = ReactX;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6545113FCC563A1E9A6CDF7D188F8989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A21ECA3055B1D913656E69FCAA6F04 /* Pods-ReactX_Example */,
+				508BB4AAC8A77F17877427CD49E52E5E /* Pods-ReactX_Tests */,
+				7B15D94EDD76DFDFC8658C3307137197 /* ReactX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E58F68F5157D6BC533A625845FB04AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABCF56CAC17B6BCEBF1395D39D03465 /* Pods-ReactX_Example */,
+				31987A444D99998CC522E4017FE94C91 /* Pods-ReactX_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		82A0C06FBEB260698DF8A9C0B1031E24 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23EF0DF1C2CF5D162B749865B2D15365 /* LICENSE */,
+				748C40438739EE560DED2493F5473F09 /* ReactX.podspec */,
+				2C46123588BDF8ED06C9357F7C663BE7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		971F0E67BE828D9200B32B17042F4926 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B325F1FF6E4D6E4C1ECB3032B38E588 /* ReactX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				971F0E67BE828D9200B32B17042F4926 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6545113FCC563A1E9A6CDF7D188F8989 /* Products */,
+				6E58F68F5157D6BC533A625845FB04AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABCF56CAC17B6BCEBF1395D39D03465 /* Pods-ReactX_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A702C2698240DE274598398AC61BC2C /* Pods-ReactX_Example.modulemap */,
+				5241973311A6EE47972845ACF9A8BD80 /* Pods-ReactX_Example-acknowledgements.markdown */,
+				4FFD05BD0B68836B538BEBE6AA6C2BE1 /* Pods-ReactX_Example-acknowledgements.plist */,
+				38EBDCC3A9CA41EDB8B8F0EC63DB988E /* Pods-ReactX_Example-dummy.m */,
+				D2A1D81669627049C1628572D5DC97D1 /* Pods-ReactX_Example-frameworks.sh */,
+				698016BE8A1F6DBAB0381359510DE786 /* Pods-ReactX_Example-Info.plist */,
+				ADC3DA80CA2A9A57B98682CD7C58E8B7 /* Pods-ReactX_Example-umbrella.h */,
+				4D7A1296C553E1FF9BF13639AB4417AE /* Pods-ReactX_Example.debug.xcconfig */,
+				0252B20623308AE150C4A6DDA9351DEE /* Pods-ReactX_Example.release.xcconfig */,
+			);
+			name = "Pods-ReactX_Example";
+			path = "Target Support Files/Pods-ReactX_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		623AF6C8C6D7499BA637AD29F38C9E55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E90A6B8818B93D2F530E38A6C4D10ED /* ReactX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797FDB7284F52740CD9932A8A5159CDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D46AB16C623741ABFBEDA23DB31A22D /* Pods-ReactX_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BC3D9F468302DC3EA3F419660400B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C044E5EC132126708AEFAFA536832B /* Pods-ReactX_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53FBF4B0BE8280301D72B3DECB525790 /* ReactX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BB3D897992FAF669882A9AF5A57D42 /* Build configuration list for PBXNativeTarget "ReactX" */;
+			buildPhases = (
+				623AF6C8C6D7499BA637AD29F38C9E55 /* Headers */,
+				074636C4ECD6588C7D7C903D87441FFB /* Sources */,
+				C1E0E17B5A731E3BC1D87379CB630916 /* Frameworks */,
+				4838257A9570264E2A3832BAD26D5943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactX;
+			productName = ReactX;
+			productReference = 7B15D94EDD76DFDFC8658C3307137197 /* ReactX */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B4E31F66BF2B3F079B3E228BA188A60 /* Pods-ReactX_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD301BF2D12B6DF0334BCB21843B7DA /* Build configuration list for PBXNativeTarget "Pods-ReactX_Tests" */;
+			buildPhases = (
+				797FDB7284F52740CD9932A8A5159CDA /* Headers */,
+				202265C7315187CEF8C9F8A3C092FE0A /* Sources */,
+				230FB40B1C13C1A6BB77BAEE0695BBC7 /* Frameworks */,
+				60A32537FB0C001833585C88749E4042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BCD531E33C3A18A3207F0EE71858D78 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactX_Tests";
+			productName = Pods_ReactX_Tests;
+			productReference = 508BB4AAC8A77F17877427CD49E52E5E /* Pods-ReactX_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF756D666E07253FF264ED8D6F9EC59 /* Pods-ReactX_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C8C14A8B87452DEBD0B802CB39E215 /* Build configuration list for PBXNativeTarget "Pods-ReactX_Example" */;
+			buildPhases = (
+				B5BC3D9F468302DC3EA3F419660400B0 /* Headers */,
+				22B305058DA65439BB88121541585243 /* Sources */,
+				5E3FE142BD40FB8BF026D688373F293F /* Frameworks */,
+				5768CEE9D6BBA59DDC2F9594416FE1D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947F19A5B081BF5C3A93C16FF4DBC0E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactX_Example";
+			productName = Pods_ReactX_Example;
+			productReference = 04A21ECA3055B1D913656E69FCAA6F04 /* Pods-ReactX_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6545113FCC563A1E9A6CDF7D188F8989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF756D666E07253FF264ED8D6F9EC59 /* Pods-ReactX_Example */,
+				5B4E31F66BF2B3F079B3E228BA188A60 /* Pods-ReactX_Tests */,
+				53FBF4B0BE8280301D72B3DECB525790 /* ReactX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4838257A9570264E2A3832BAD26D5943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5768CEE9D6BBA59DDC2F9594416FE1D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A32537FB0C001833585C88749E4042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074636C4ECD6588C7D7C903D87441FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0051EBB97E37B685824D5C4F43E710C /* ReactX-dummy.m in Sources */,
+				245A6989F1E80083BE24B68F6464DC94 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202265C7315187CEF8C9F8A3C092FE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF63FE2A2A3F8D7A57785A5CC7943D0 /* Pods-ReactX_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B305058DA65439BB88121541585243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131C6EB67A377C0689D60F98A709E7C8 /* Pods-ReactX_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BCD531E33C3A18A3207F0EE71858D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReactX_Example";
+			target = EBF756D666E07253FF264ED8D6F9EC59 /* Pods-ReactX_Example */;
+			targetProxy = D745DF1833D0E06745ACF42714D7C475 /* PBXContainerItemProxy */;
+		};
+		947F19A5B081BF5C3A93C16FF4DBC0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactX;
+			target = 53FBF4B0BE8280301D72B3DECB525790 /* ReactX */;
+			targetProxy = AA2B29FF931162465A21DE35301F1879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		523273288F9D3867D6876174A831DC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352FC961E921E36BA811839985E12827 /* Pods-ReactX_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		767F6DCA51125C30F38D35ABCCD72315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0B86A0703384D5C23107F5F6FC632D /* ReactX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReactX/ReactX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactX/ReactX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactX/ReactX.modulemap";
+				PRODUCT_MODULE_NAME = ReactX;
+				PRODUCT_NAME = ReactX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A24E2EB0D1685F400EF1FBF7B06559C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991DA5B8055BBCFF37A384F0F601417C /* ReactX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReactX/ReactX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactX/ReactX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactX/ReactX.modulemap";
+				PRODUCT_MODULE_NAME = ReactX;
+				PRODUCT_NAME = ReactX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		954EDEA70EE70559152DD73ACAAA973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7A1296C553E1FF9BF13639AB4417AE /* Pods-ReactX_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		974E06860EED7A3EB8BBA9D0FA407093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7750387A4437CB00B2CE5B72104A833D /* Pods-ReactX_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactX_Tests/Pods-ReactX_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A744121AE9F99485A24D752CA57965C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0252B20623308AE150C4A6DDA9351DEE /* Pods-ReactX_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactX_Example/Pods-ReactX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BB3D897992FAF669882A9AF5A57D42 /* Build configuration list for PBXNativeTarget "ReactX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767F6DCA51125C30F38D35ABCCD72315 /* Debug */,
+				8A24E2EB0D1685F400EF1FBF7B06559C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD301BF2D12B6DF0334BCB21843B7DA /* Build configuration list for PBXNativeTarget "Pods-ReactX_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974E06860EED7A3EB8BBA9D0FA407093 /* Debug */,
+				523273288F9D3867D6876174A831DC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C8C14A8B87452DEBD0B802CB39E215 /* Build configuration list for PBXNativeTarget "Pods-ReactX_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954EDEA70EE70559152DD73ACAAA973E /* Debug */,
+				A744121AE9F99485A24D752CA57965C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

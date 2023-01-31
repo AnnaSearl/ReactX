@@ -1,0 +1,16 @@
+PODS:
+  - ReactX (0.1.0)
+
+DEPENDENCIES:
+  - ReactX (from `../`)
+
+EXTERNAL SOURCES:
+  ReactX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactX: 5873aa3e36501ddab050398c86438ed2a9b5818d
+
+PODFILE CHECKSUM: 065c2cb2eb82ac1860338d01097b0a14bc342196
+
+COCOAPODS: 1.11.2

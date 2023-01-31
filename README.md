@@ -22,7 +22,7 @@ pod 'ReactX'
 
 ## Author
 
-Arwen, chenjiawen@ksztone.com
+Arwen, 1029846268@qq.com
 
 ## License
 
